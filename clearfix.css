@@ -1,0 +1,19 @@
+/* BOX A */
+.boxA {
+  border: solid 8px #00a0e9;
+  background-color: #a0e0fe;
+  color: #00a0e9;
+}
+.boxA::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* BOX2 と BOX3 を横に並べる */
+.box2 {
+  float: left;
+}
+.box3 {
+  float: left;
+}

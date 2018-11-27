@@ -1,0 +1,104 @@
+/* BOX A */
+.boxA::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.box1 {
+  border: solid 0px #FF97C2;
+  background-color: #FFD5EC;
+  color: #FF97C2;
+  float: left;
+  width: 25%;
+}
+.box2 {
+  border: solid 0px #99CC66;
+  background-color: #FFFFEE;
+  color: #99CC66;
+  float: left;
+  width: 25%;
+}
+.box3 {
+  border: solid 0px #6699CC;
+  background-color: #D7EEFF;
+  color: #6699CC;
+  float: left;
+  width: 25%;
+}
+.box4 {
+  border: solid 0px #006400;
+  background-color: #3CB371;
+  color: #006400;
+  float: left;
+  width: 25%;
+}
+
+/* BOX B */
+.boxB::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.box5 {
+  border: solid 0px #FF97C2;
+  background-color: #FFD5EC;
+  color: #FF97C2;
+  float: right;
+  width: 25%;
+}
+.box6 {
+  border: solid 0px #99CC66;
+  background-color: #FFFFEE;
+  color: #99CC66;
+  float: right;
+  width: 25%;
+}
+.box7 {
+  border: solid 0px #6699CC;
+  background-color: #D7EEFF;
+  color: #6699CC;
+  float: right;
+  width: 25%;
+}
+.box8 {
+  border: solid 0px #006400;
+  background-color: #3CB371;
+  color: #006400;
+  float: right;
+  width: 25%;
+}
+
+/* BOX C */
+.boxC::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.box9 {
+  border: solid 0px #FF97C2;
+  background-color: #FFD5EC;
+  color: #FF97C2;
+  float: left;
+  width: 25%;
+}
+.box10 {
+  border: solid 0px #99CC66;
+  background-color: #FFFFEE;
+  color: #99CC66;
+  float: right;
+  width: 25%;
+}
+.box11 {
+  border: solid 0px #6699CC;
+  background-color: #D7EEFF;
+  color: #6699CC;
+  float: left;
+  width: 25%;
+}
+.box12 {
+  border: solid 0px #006400;
+  background-color: #3CB371;
+  color: #006400;
+  float: right;
+  width: 25%;
+}

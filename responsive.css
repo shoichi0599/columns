@@ -1,0 +1,78 @@
+.box1 {
+  border: solid 0px #FF97C2;
+  background-color: #FFD5EC;
+  color: #FF97C2;
+}
+.box2 {
+  border: solid 0px #99CC66;
+  background-color: #FFFFEE;
+  color: #99CC66;
+}
+.box3 {
+  border: solid 0px #6699CC;
+  background-color: #D7EEFF;
+  color: #6699CC;
+}
+.box4 {
+  border: solid 0px #006400;
+  background-color: #3CB371;
+  color: #006400;
+}
+@media screen and (min-width: 768px) {
+  .box1 {
+    border: solid 0px #FF97C2;
+    background-color: #FFD5EC;
+    color: #FF97C2;
+  }
+  .boxA::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .boxB {
+    float: left;
+    width: 80%;
+  }
+  .box4 {
+    border: solid 0px #006400;
+    background-color: #3CB371;
+    color: #006400;
+    float: left;
+    width: 20%;
+  }
+  .boxB::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .box2 {
+    border: solid 0px #99CC66;
+    background-color: #FFFFEE;
+    color: #99CC66;
+    float: right;
+    width: 75%;
+  }
+  .box3 {
+    border: solid 0px #6699CC;
+    background-color: #D7EEFF;
+    color: #6699CC;
+    float: left;
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .boxB::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .box2 {
+    float: right;
+    width: 75%;
+  }
+  .box3 {
+    float: left;
+    width: 25%;
+  }
+}
